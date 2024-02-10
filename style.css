@@ -39,10 +39,17 @@ nav{
 	justify-content: space-between;
 	width: 50%;
 }
-.nav-links li a{
-	font-weight: bold;
-	color: #525252;
-}
+.nav-links li a {
+		font-weight: bold;
+		color: #014801;
+	}
+	.nav-links li a:hover {
+		color: #525252;
+	}
+	.nav-links li a:active{
+		text-transform:uppercase;
+		transform:scale(2);
+	}
 section{
 	margin: 1vw auto;
 	width: 90%;
@@ -75,15 +82,16 @@ button{
 	text-decoration: none;
 	cursor: pointer;
 }
-.btn-green {
+.btn-green, .btn-white:hover {
 	background-color: #014801;
 	color: white;
 	border: 1.5px solid #014801;
 }
-.btn-white {
-	background-color: white;
-	color: #014801;
-	border: 1.5px solid #014801;
+
+.btn-white, .btn-green:hover {
+		background-color: white;
+		color: #014801;
+		border: 1.5px solid #014801;
 }
 .title-container {
 	display: block;
