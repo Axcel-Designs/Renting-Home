@@ -1,0 +1,147 @@
+body{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	color:#525252;
+	height: 100%;
+	width: 100%;
+}
+.title, .green, .logo, .footer-columns li:first-child a {
+	color: #014801;
+	font-weight: bold;
+}
+.title{
+	font-size: 5vw
+}
+strong{
+	color: white;
+}
+li, li a{
+	text-decoration: none;
+	list-style: none;
+}
+a,p,q,.copyright{
+	font-size: 1.5vw;
+}
+nav{
+	padding: 1vw;
+	display: flex;
+	margin: auto;
+	width: 80%;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.logo{
+}
+.nav-links{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.nav-links li a{
+	font-weight: bold;
+	color: #525252;
+}
+section{
+	margin: 1vw auto;
+	width: 90%;
+	padding: 1.5vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items:baseline;
+	align-content: center;
+}
+.box{
+	margin: 1vw;
+	padding: 0.5vw;
+	height:auto;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.botton-container{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin: auto;
+}
+button{
+	margin: 1vw .5vw;
+	padding: 1vw;
+	border-radius: 3vw;
+	text-decoration: none;
+	cursor: pointer;
+}
+.btn-green {
+	background-color: #014801;
+	color: white;
+	border: 1.5px solid #014801;
+}
+.btn-white {
+	background-color: white;
+	color: #014801;
+	border: 1.5px solid #014801;
+}
+.title-container {
+	display: block;
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+.box-container{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: .2vw;
+	justify-content:space-around;
+	align-items: center;
+	align-content:center ;
+	width: 95%;
+}
+.box-inner {
+	margin: 1vw;
+	text-align: center;
+	height: auto;
+	width: 250px;
+	padding: 1vw;
+	border-radius: 2vw;
+	border: 0.5vw solid #014801;
+}
+.box-inner p{
+	color: whitesmoke;
+}
+.box-green, .social-icons {
+	background-color: #014801;
+}
+	.box-green q {
+		color: #525252;
+	}
+.box-clear{
+	border-radius: 2vw 6vw;
+}
+
+.footer-columns{
+	height: auto;
+	width: auto;
+	margin: 1vw;
+}
+.footer-columns li a{
+		color: #525252;
+}
+.copyright{
+	text-align: center;
+}
+
+@media screen and (max-width:780px){
+	a,p,q,.copyright{
+		font-size: 2vw;
+	}
+}
+@media screen and (max-width:480px){
+		a,p,q, .copyright{
+		font-size: 2.5vw;
+	}
+}
