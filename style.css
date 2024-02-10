@@ -1,29 +1,35 @@
-body{
+body {
 	background-color: white;
 	margin: 0;
 	padding: 0;
-	color:#525252;
+	color: #525252;
 	height: 100%;
 	width: 100%;
 }
+
 .title, .green, .logo, .footer-columns li:first-child a {
 	color: #014801;
 	font-weight: bold;
 }
-.title{
+
+.title {
 	font-size: 5vw
 }
-strong{
+
+strong {
 	color: white;
 }
-li, li a{
+
+li, li a {
 	text-decoration: none;
 	list-style: none;
 }
-a,p,q,.copyright{
+
+a, p, q, .copyright {
 	font-size: 1.5vw;
 }
-nav{
+
+nav {
 	padding: 1vw;
 	display: flex;
 	margin: auto;
@@ -32,83 +38,96 @@ nav{
 	align-content: center;
 	align-items: center;
 }
-.logo{
+
+.logo {
 }
-.nav-links{
+
+.nav-links {
 	display: flex;
 	justify-content: space-between;
 	width: 50%;
 }
-.nav-links li a {
+
+	.nav-links li a {
 		font-weight: bold;
 		color: #014801;
 	}
-	.nav-links li a:hover {
-		color: #525252;
-	}
-	.nav-links li a:active{
-		text-transform:uppercase;
-		transform:scale(2);
-	}
-section{
+
+		.nav-links li a:hover {
+			color: #525252;
+		}
+
+		.nav-links li a:active {
+			text-transform: uppercase;
+			transform: scale(2);
+		}
+
+section {
 	margin: 1vw auto;
 	width: 90%;
 	padding: 1.5vw;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items:baseline;
+	align-items: baseline;
 	align-content: center;
 }
-.box{
+
+.box {
 	margin: 1vw;
 	padding: 0.5vw;
-	height:auto;
+	height: auto;
 	width: 500px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.botton-container{
+
+.botton-container {
 	display: flex;
 	justify-content: space-between;
 	width: 50%;
 	margin: auto;
 }
-button{
+
+button {
 	margin: 1vw .5vw;
 	padding: 1vw;
 	border-radius: 3vw;
 	text-decoration: none;
 	cursor: pointer;
 }
+
 .btn-green, .btn-white:hover {
 	background-color: #014801;
 	color: white;
 	border: 1.5px solid #014801;
 }
 
-.btn-white, .btn-green:hover {
+	.btn-white, .btn-green:hover {
 		background-color: white;
 		color: #014801;
 		border: 1.5px solid #014801;
-}
+	}
+
 .title-container {
 	display: block;
 	margin: auto;
 	width: 60%;
 	text-align: center;
 }
-.box-container{
+
+.box-container {
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	padding: .2vw;
-	justify-content:space-around;
+	justify-content: space-around;
 	align-items: center;
-	align-content:center ;
+	align-content: center;
 	width: 95%;
 }
+
 .box-inner {
 	margin: 1vw;
 	text-align: center;
@@ -118,56 +137,89 @@ button{
 	border-radius: 2vw;
 	border: 0.5vw solid #014801;
 }
-.box-inner p{
-	color: whitesmoke;
-}
+
+	.box-inner p {
+		color: whitesmoke;
+	}
+
 .box-green {
 	background-color: #014801;
 }
+
 	.box-green q {
 		color: #525252;
 	}
-.box-clear{
+
+.box-clear {
 	border-radius: 2vw 6vw;
 }
 
-.footer-columns{
+.footer-columns {
 	height: auto;
 	width: auto;
 	margin: 1vw;
 }
-.footer-columns li a{
+
+	.footer-columns li a {
 		color: #525252;
-}
-footer{
-	display:flex;
-	margin:auto;
+	}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw;
+	padding: 1vw;
 	width:85%;
-	justify-content:space-around;
+	justify-content: space-around;
 }
+
 .social-icons {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: auto;
 }
-.social-icons a {
-	background-color:white;
-	color: #014801;
-	padding:vw;
-	width:6vw;
-}
-.copyright{
+
+	.social-icons a {
+		background-color: white;
+		color: #014801;
+		width: 5vw;
+	}
+
+.copyright {
 	text-align: center;
+	width: 70%;
 }
 
-@media screen and (max-width:780px){
-	a,p,q,.copyright{
+@media screen and (max-width:780px) {
+	a, p, q, .copyright {
 		font-size: 2vw;
 	}
 }
-@media screen and (max-width:480px){
-		a,p,q, .copyright{
+
+@media screen and (max-width:480px) {
+	a, p, q, .copyright {
 		font-size: 2.5vw;
 	}
+	section {
+		margin: 1vw auto;
+		width: 90%;
+		padding: 1.5vw;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items:center;
+		align-content: center;
+	}
+	.footer-columns,.footer-columns ul {
+		display:flex;
+		flex-direction:column;
+		justify-content:start;
+		align-content:center;
+		align-items:center;
+		height: auto;
+		width: auto;
+		margin: 1vw;
+	}
+
 }
