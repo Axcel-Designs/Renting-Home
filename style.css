@@ -121,7 +121,7 @@ button{
 .box-inner p{
 	color: whitesmoke;
 }
-.box-green, .social-icons {
+.box-green {
 	background-color: #014801;
 }
 	.box-green q {
@@ -138,6 +138,24 @@ button{
 }
 .footer-columns li a{
 		color: #525252;
+}
+footer{
+	display:flex;
+	margin:auto;
+	width:85%;
+	justify-content:space-around;
+}
+.social-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+}
+.social-icons a {
+	background-color:white;
+	color: #014801;
+	padding:vw;
+	width:6vw;
 }
 .copyright{
 	text-align: center;
