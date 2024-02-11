@@ -88,8 +88,8 @@ section {
 }
 
 button {
-	margin: 1vw .5vw;
-	padding: 1vw;
+	margin: 1vw;
+	padding: 1.5vw;
 	border-radius: 3vw;
 	text-decoration: none;
 	cursor: pointer;
@@ -135,20 +135,24 @@ button {
 	border: 0.5vw solid #014801;
 }
 
-	.box-inner p {
-		color: whitesmoke;
-	}
+.box-inner p {
+	color: whitesmoke;
+}
 
 .box-green {
 	background-color: #014801;
 }
 
-	.box-green q {
-		color: #525252;
-	}
+.box-green q {
+	color: #525252;
+}
 
 .box-clear {
 	border-radius: 2vw 6vw;
+}
+.service-icons {
+	padding: 2vw;
+	color: white;
 }
 
 .footer-columns {
@@ -192,6 +196,11 @@ footer {
 	a, p, q, .copyright {
 		font-size:1.8vw;
 	}
+	button {
+		padding: 1.8vw;
+		border-radius: 4vw;
+
+	}
 }
 
 @media screen and (max-width:480px) {
@@ -201,25 +210,8 @@ footer {
 	.nav-links a{
 		font-size: 2vw;
 	}
-	section {
-		margin: 1vw auto;
-		width: 90%;
-		padding: 1.5vw;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items:center;
-		align-content: center;
+	button {
+		padding: 3vw;
+		border-radius: 6vw;
 	}
-	.footer-columns,.footer-columns ul {
-		display:flex;
-		flex-direction:column;
-		justify-content:start;
-		align-content:center;
-		align-items:center;
-		height: auto;
-		width: auto;
-		margin: 1vw;
-	}
-
 }
