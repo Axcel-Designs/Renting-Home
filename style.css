@@ -154,6 +154,9 @@ button {
 	padding: 2vw;
 	color: white;
 }
+.service-icons i{
+	color: #fff;
+}
 
 .footer-columns {
 	height: auto;
