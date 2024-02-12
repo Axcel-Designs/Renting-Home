@@ -30,11 +30,11 @@ span{
 	font-family: 'Philosopher', sans-serif;
 	font-size: 5vw
 }
-
 strong {
 	color: white;
-}
-
+	font-size: 3vw;
+	font-weight:bolder ;
+}   
 li, li a {
 	text-decoration: none;
 	list-style: none;
@@ -217,18 +217,21 @@ footer {
 
 @media screen and (max-width:780px) {
 	a, p, q, .copyright {
-		font-size:1.8vw;
+		font-size:2vw;
 	}
 	button {
 		padding: 1.8vw;
 		border-radius: 4vw;
 
 	}
+	.box-inner{
+		height: auto;
+	}
 }
 
 @media screen and (max-width:480px) {
 	a, p, q, .copyright {
-		font-size: 2.3vw;
+		font-size: 2.5vw;
 	}
 	.nav-links a{
 		font-size: 2vw;
@@ -237,7 +240,5 @@ footer {
 		padding: 3vw;
 		border-radius: 6vw;
 	}
-	.box-inner{
-		height: auto;
-	}
+
 }
