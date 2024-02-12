@@ -145,7 +145,7 @@ button {
 	justify-content:space-around;
 	margin: 2vw 1vw;
 	text-align: center;
-	height: 100vh;
+	height: 412px;
 	width: 300px;
 	padding: 1vw;
 	border-radius: 2vw;
@@ -236,5 +236,8 @@ footer {
 	button {
 		padding: 3vw;
 		border-radius: 6vw;
+	}
+	.box-inner{
+		height: auto;
 	}
 }
